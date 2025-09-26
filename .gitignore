@@ -1,0 +1,147 @@
+# Data directories and datasets
+14_data_augmentation/datasets/
+15_transfer_learning/datasets/
+*/datasets/
+datasets/
+
+# Image datasets
+flower_photos/
+*/flower_photos/
+
+# Large data files
+*.tgz
+*.tar.gz
+*.zip
+*.csv
+*.json
+*.sqlite
+*.db
+
+# Model files (can be large)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.model
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.joblib
+*.sav
+
+# TensorFlow/Keras files
+*.tfevents.*
+logs/
+*/logs/
+tensorboard_logs/
+checkpoints/
+saved_models/
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/,ipynb_checkpoints/
+
+# Environment variables and configuration
+.env
+.env.local
+.env.production
+.env.development
+config.json
+secrets.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+.python-version
+
+# Conda environments
+.conda/
+
+# PDF files (often large documentation/resumes)
+*.pdf
+
+# Large image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.webp
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large numpy arrays
+*.npy
+*.npz
+
+# Matplotlib cache
+.matplotlib/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+tmp/
+temp/
